@@ -1,0 +1,41 @@
+category,question,expected_sources,returned_sources,any_hit@7,all_expected@7,source_recall,first_relevant_rank,reciprocal_rank
+CSF 2.0,What are the six functions in the NIST Cybersecurity Framework 2.0?,nist_csf_2_0,"nist_csf_2_0, nist_ir_8374r1, nist_sp_800_61r3",True,True,1.0,1,1.0
+CSF 2.0,What is the difference between a Current Profile and a Target Profile?,nist_csf_2_0,"nist_csf_2_0, nist_sp_800_61r3, nist_sp_800_30r1, nist_ir_8374r1",True,True,1.0,1,1.0
+CSF 2.0,What do the four CSF Tiers represent?,nist_csf_2_0,"nist_csf_2_0, nist_sp_800_61r3, nist_sp_800_30r1",True,True,1.0,1,1.0
+CSF 2.0,Why is the Govern function placed at the center of the CSF 2.0 wheel?,nist_csf_2_0,"nist_csf_2_0, nist_sp_800_61r3, nist_sp_800_207, nist_ir_8374r1, nist_sp_800_30r1",True,True,1.0,1,1.0
+CSF 2.0,Should the six CSF functions be addressed sequentially or concurrently?,nist_csf_2_0,"nist_csf_2_0, nist_sp_800_61r3, nist_ir_8374r1, nist_sp_800_30r1",True,True,1.0,1,1.0
+CSF 2.0,"How do Informative References, Implementation Examples, and Quick Start Guides support CSF use?",nist_csf_2_0,"nist_csf_2_0, nist_sp_800_61r3, nist_ir_8374r1, cisa_stop_ransomware",True,True,1.0,1,1.0
+Incident response,How does NIST SP 800-61 revision 3 integrate incident response with cybersecurity risk management?,nist_sp_800_61r3,"nist_sp_800_61r3, nist_csf_2_0, nist_ir_8374r1, nist_sp_800_207",True,True,1.0,1,1.0
+Incident response,How are the previous incident response life-cycle phases mapped to CSF 2.0 functions?,nist_sp_800_61r3,"nist_sp_800_61r3, nist_csf_2_0",True,True,1.0,1,1.0
+Incident response,What responsibilities does organizational leadership have during incident response?,nist_sp_800_61r3,"nist_sp_800_61r3, nist_csf_2_0, nist_ir_8374r1, nist_sp_800_30r1",True,True,1.0,1,1.0
+Incident response,What responsibilities do incident handlers perform?,nist_sp_800_61r3,"nist_sp_800_61r3, nist_csf_2_0, nist_sp_800_30r1, nist_ir_8374r1",True,True,1.0,1,1.0
+Incident response,How should third-party incident response responsibilities be defined?,nist_sp_800_61r3,"nist_sp_800_61r3, nist_ir_8374r1, nist_sp_800_30r1",True,True,1.0,1,1.0
+Incident response,Why should lessons learned be incorporated continuously instead of waiting until recovery ends?,nist_sp_800_61r3,"nist_sp_800_61r3, nist_ir_8374r1, nist_csf_2_0, nist_sp_800_30r1, cisa_stop_ransomware",True,True,1.0,1,1.0
+Zero trust,What is zero trust architecture according to NIST SP 800-207?,nist_sp_800_207,"nist_sp_800_207, nist_ir_8374r1",True,True,1.0,1,1.0
+Zero trust,What are the core tenets of zero trust architecture?,nist_sp_800_207,nist_sp_800_207,True,True,1.0,1,1.0
+Zero trust,What roles do the policy decision point and policy enforcement point perform?,nist_sp_800_207,"nist_sp_800_207, nist_sp_800_61r3, nist_sp_800_30r1, nist_csf_2_0",True,True,1.0,1,1.0
+Zero trust,Why does network location alone not establish trust in a zero trust system?,nist_sp_800_207,nist_sp_800_207,True,True,1.0,1,1.0
+Zero trust,What steps does NIST recommend when migrating toward a zero trust architecture?,nist_sp_800_207,"nist_sp_800_207, nist_csf_2_0",True,True,1.0,1,1.0
+Zero trust,What threats and operational risks can affect a zero trust architecture?,nist_sp_800_207,"nist_sp_800_207, nist_sp_800_61r3, nist_sp_800_30r1",True,True,1.0,1,1.0
+Risk assessment,What is the purpose of a cybersecurity risk assessment?,nist_sp_800_30r1,"nist_sp_800_30r1, nist_sp_800_61r3, nist_csf_2_0",True,True,1.0,1,1.0
+Risk assessment,What are the four components of the risk management process?,nist_sp_800_30r1,"nist_sp_800_30r1, nist_csf_2_0, nist_sp_800_61r3",True,True,1.0,1,1.0
+Risk assessment,"What steps are involved in preparing, conducting, communicating, and maintaining a risk assessment?",nist_sp_800_30r1,"nist_sp_800_30r1, nist_sp_800_61r3",True,True,1.0,1,1.0
+Risk assessment,"How do threats, vulnerabilities, impact, and likelihood contribute to risk determination?",nist_sp_800_30r1,"nist_sp_800_30r1, nist_sp_800_61r3",True,True,1.0,1,1.0
+Risk assessment,At which organizational tiers can risk assessments be conducted?,nist_sp_800_30r1,"nist_sp_800_30r1, nist_csf_2_0",True,True,1.0,1,1.0
+Risk assessment,Why must risk assessments be maintained and monitored over time?,nist_sp_800_30r1,"nist_sp_800_30r1, nist_csf_2_0, nist_sp_800_61r3, nist_sp_800_207, nist_ir_8374r1",True,True,1.0,1,1.0
+Ransomware profile,What basic practices does NIST recommend for ransomware readiness?,nist_ir_8374r1,"cisa_stop_ransomware, nist_ir_8374r1",True,True,1.0,2,0.5
+Ransomware profile,Why are ransomware attacks especially disruptive to business operations?,nist_ir_8374r1,"nist_ir_8374r1, cisa_stop_ransomware, nist_sp_800_61r3",True,True,1.0,1,1.0
+Ransomware profile,How does the ransomware community profile use CSF 2.0 outcomes?,nist_ir_8374r1,"nist_ir_8374r1, nist_csf_2_0, nist_sp_800_61r3, cisa_stop_ransomware",True,True,1.0,1,1.0
+Ransomware profile,What backup and restoration practices support ransomware recovery?,nist_ir_8374r1,"cisa_stop_ransomware, nist_ir_8374r1, nist_csf_2_0, nist_sp_800_61r3",True,True,1.0,2,0.5
+Ransomware profile,"Why should ransomware roles, authorities, and decision makers be identified in advance?",nist_ir_8374r1,"nist_ir_8374r1, cisa_stop_ransomware, nist_sp_800_61r3, nist_sp_800_30r1",True,True,1.0,1,1.0
+Cross-document,How can zero trust and least privilege make ransomware harder to spread?,"nist_ir_8374r1, nist_sp_800_207","nist_ir_8374r1, cisa_stop_ransomware, nist_sp_800_61r3, nist_sp_800_207",True,True,1.0,1,1.0
+CISA ransomware,"Why should ransomware backups be offline, encrypted, and regularly tested?",cisa_stop_ransomware,"cisa_stop_ransomware, nist_ir_8374r1, nist_sp_800_61r3",True,True,1.0,1,1.0
+CISA ransomware,What should a ransomware incident response and communications plan contain?,cisa_stop_ransomware,"cisa_stop_ransomware, nist_ir_8374r1, nist_sp_800_61r3",True,True,1.0,1,1.0
+CISA ransomware,How should organizations reduce risks from internet-facing vulnerabilities and exposed remote services?,cisa_stop_ransomware,"cisa_stop_ransomware, nist_sp_800_30r1, nist_csf_2_0, nist_sp_800_61r3",True,True,1.0,1,1.0
+CISA ransomware,What controls does CISA recommend for compromised credentials and administrator accounts?,cisa_stop_ransomware,"cisa_stop_ransomware, nist_sp_800_207, nist_ir_8374r1, nist_sp_800_61r3",True,True,1.0,1,1.0
+CISA ransomware,What phishing defenses are recommended in the StopRansomware Guide?,cisa_stop_ransomware,"cisa_stop_ransomware, nist_ir_8374r1, nist_sp_800_30r1, nist_sp_800_207",True,True,1.0,1,1.0
+CISA ransomware,What immediate isolation actions should be considered after ransomware is detected?,cisa_stop_ransomware,"nist_ir_8374r1, cisa_stop_ransomware, nist_sp_800_207, nist_sp_800_61r3, nist_csf_2_0",True,True,1.0,2,0.5
+Cross-document,Compare the NIST ransomware community profile with the CISA StopRansomware Guide.,"cisa_stop_ransomware, nist_ir_8374r1","cisa_stop_ransomware, nist_ir_8374r1, nist_sp_800_61r3, nist_csf_2_0",True,True,1.0,1,1.0
+Cross-document,How do zero trust principles support ransomware prevention and containment?,"cisa_stop_ransomware, nist_ir_8374r1, nist_sp_800_207","cisa_stop_ransomware, nist_ir_8374r1, nist_sp_800_61r3, nist_sp_800_207",True,True,1.0,1,1.0
+Cross-document,"How do CSF 2.0 and SP 800-61r3 organize incident preparation, detection, response, and recovery?","nist_csf_2_0, nist_sp_800_61r3","nist_sp_800_61r3, nist_csf_2_0, nist_ir_8374r1",True,True,1.0,1,1.0
+Cross-document,How can risk assessment findings inform ransomware preparation and recovery priorities?,"nist_ir_8374r1, nist_sp_800_30r1","nist_ir_8374r1, nist_sp_800_61r3, cisa_stop_ransomware, nist_csf_2_0",True,False,0.5,1,1.0

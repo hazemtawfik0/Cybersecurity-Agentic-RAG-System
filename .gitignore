@@ -1,0 +1,61 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Hugging Face / model caches
+.hf_cache/
+.cache/
+huggingface/
+models/
+checkpoints/
+
+# Large downloaded model files
+*.safetensors
+pytorch_model*.bin
+*.gguf
+*.onnx
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Gradio/runtime files
+.gradio/
+flagged/
+logs/
+*.log
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~$*

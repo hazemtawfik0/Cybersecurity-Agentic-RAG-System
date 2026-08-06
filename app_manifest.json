@@ -1,0 +1,25 @@
+{
+  "app_version": "1.7",
+  "expected_artifact_directory": "C:\\Users\\Tawfik\\Downloads\\trae\\cyber",
+  "required_files": [
+    "bm25_tokenized_corpus.json",
+    "chunk_embeddings.npy",
+    "chunks_metadata.jsonl",
+    "retrieval_config.json"
+  ],
+  "default_generation_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "gradio_compatibility": "6.x",
+  "artifact_detection": "automatic",
+  "default_mode": "Smart grounded answer",
+  "answer_quality": "intent-aware sentence ranking, query expansion, fragment filtering, and source deduplication",
+  "risk_assessment_intent": "NIST SP 800-30 source boost with Prepare, Conduct, Communicate, and Maintain stage selection",
+  "extraction_cleanup": "control-label and broken-prefix removal",
+  "exact_source_answers": [
+    "NIST CSF 2.0 six Functions",
+    "NIST SP 800-30 four-stage risk-assessment process",
+    "NIST SP 800-207 seven zero-trust tenets"
+  ],
+  "retrieval_improvement": "required local source chunks are injected before hybrid results",
+  "ui_update": "visible compact suggested-question buttons",
+  "presentation_focus": "fit page better on desktop screens"
+}
